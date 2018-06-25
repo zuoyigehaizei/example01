@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<select>
+    <option value="">--请选择--</option>
+    <option th:each="user01:${map}"
+            th:value="${user01.id}"
+            th:text="${user01.name}"></option>
+</select>
+<a href="test01.html">超链接</a>
+<td>Red Chair</td>
+<td>哈哈哈</td>
+</body>
+</html>
