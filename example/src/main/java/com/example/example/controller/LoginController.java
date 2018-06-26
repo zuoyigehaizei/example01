@@ -32,6 +32,8 @@ public class LoginController {
 	
 	public void test02(){
 		System.out.println("w shi xiao hei");
+        System.out.println("w shi xiao hua");
+		System.out.println("w shi xiao hua");
 	}
 
 }
