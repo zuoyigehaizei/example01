@@ -27,7 +27,7 @@ public class LoginController {
 
     @Scheduled(cron = "0 0 0 1 * ?")
     public void test01(){
-        System.out.println("aaaa");
+        System.out.println("bbbb");
     }
 	
 	public void test02(){
