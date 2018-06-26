@@ -27,13 +27,14 @@ public class LoginController {
 
     @Scheduled(cron = "0 0 0 1 * ?")
     public void test01(){
-        System.out.println("bbbb");
+        System.out.println("aaaaabbbb");
     }
 	
 	public void test02(){
 		System.out.println("w shi xiao hei");
         System.out.println("w shi xiao hua");
 		System.out.println("w shi xiao hua");
+        System.out.println("w shi xiao heheheh");
 	}
 
 }
